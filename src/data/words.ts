@@ -4,7 +4,7 @@ let IS_LOADED = false;
 
 export const loadValidWords = async () => {
   try {
-    const res = await fetch('/words.txt');
+    const res = await fetch('/wordle/words.txt');
     const text = await res.text();
     VALID_WORDS = text
       .split('\n')
