@@ -9,7 +9,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d dist -r https://github.com/asabhaysharma/wordle.git",
     "predeploy": "npm run build"
   },
   "dependencies": {
